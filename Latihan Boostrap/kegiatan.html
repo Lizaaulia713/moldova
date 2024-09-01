@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Activities</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Flag_of_Moldova.svg.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Moldova Tourism
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kegiatan.html">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tentang.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Activities</li>
+        </ol>
+    </nav>
+
+    <!-- Card Sections -->
+    <div class="container mt-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/utm-park-open-air-museum.jpg" class="card-img-top" alt="Moldova">
+                    <div class="card-body">
+                        <h5 class="card-title">UTM Park Open-Air Museum</h5>
+                        <p class="card-text">A park in Chișinău, Moldova.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            View Images
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">UTM Park Open-Air Museum</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div id="carouselExampleInterval1" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="2000">
+                                                    <img src="img/utm-park-open-air-museum (1).jpg" class="d-block w-100" alt="Moldova 1">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="2000">
+                                                    <img src="img/utm-park-open-air-museum (2).jpg" class="d-block w-100" alt="Moldova 2">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/utm-park-open-air-museum (3).jpg" class="d-block w-100" alt="Moldova 3">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval1" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval1" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Understood</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/Theodore.jpg" class="card-img-top" alt="Theodore">
+                    <div class="card-body">
+                        <h5 class="card-title">St. Theodor Tiron Convent</h5>
+                        <p class="card-text">Interesting Place & Landmark.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalbasan">
+                            View Images
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalbasan" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalbasanLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="modalbasanLabel">St. Theodor Tiron Convent</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div id="carouselExampleInterval2" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="2000">
+                                                    <img src="img/Theodore 1.jpg" class="d-block w-100" alt="Theodore 1">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="2000">
+                                                    <img src="img/Theodore 2.jpg" class="d-block w-100" alt="Theodore 2">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/Theodore 3.jpg" class="d-block w-100" alt="Theodore 3">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Understood</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/Dendrarium park.jpg" class="card-img-top" alt="Dendrarium Park">
+                    <div class="card-body">
+                        <h5 class="card-title">Dendrarium Park</h5>
+                        <p class="card-text">Recreational Park</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalbudha">
+                            View Images
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalbudha" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalbudhaLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="modalbudhaLabel">Dendrarium Park</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div id="carouselExampleInterval3" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="2000">
+                                                    <img src="img/dendraium 1.jpg" class="d-block w-100" alt="Dendrarium 1">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="2000">
+                                                    <img src="img/dendraium 2.jpg" class="d-block w-100" alt="Dendrarium 2">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/dendraium 3.jpg" class="d-block w-100" alt="Dendrarium 3">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval3" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval3" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Understood</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center text-lg-start mt-5">
+      <div class="container p-4">
+          <div class="row">
+              <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                  <h5>About Us</h5>
+                  <p> We offer a variety of recreational activities for families and friends. Enjoy an unforgettable holiday with us!</p>
+              </div>
+              <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-end">
+                  <h5>Contact Us</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="mailto:lizaaulia0209@gmail.com" class="text-dark">Email: lizaaulia0209@gmail.com</a></li>
+                      <li><a href="tel:+37312345678" class="text-dark">Phone: +373 123 456 78</a></li>
+                      <li><a href="kontak.html" class="text-dark">Contact Form</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="text-center p-3 bg-info text-white">
+          &copy; 2024 Moldova Tourism. Lizaa.
+      </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
